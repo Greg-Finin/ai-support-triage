@@ -1,0 +1,12 @@
+{
+  "ticket": {
+    "id": "tkt_8a1f9c",
+    "title": "Users hitting a redirect loop after Okta login",
+    "body": "Starting this morning, about a third of our team can't get past SSO. They click 'Log in with Okta', authenticate fine, but then bounce back to the login page. Browser network tab shows the SAML callback returning a 302 back to /login. Our IT team didn't change anything on the Okta side. Affects Chrome and Safari. Some users say it works if they paste the dashboard URL directly after logging in.",
+    "customer_name": "Northwind Logistics",
+    "customer_id": "cust_42a1",
+    "priority": "high",
+    "created_at": "2026-05-19T14:22:00Z",
+    "tags": ["auth", "sso"]
+  }
+}

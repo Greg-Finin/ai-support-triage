@@ -1,0 +1,12 @@
+{
+  "ticket": {
+    "id": "tkt_b22f04",
+    "title": "Webhooks arriving 5-10 minutes late",
+    "body": "Our integration relies on your webhook deliveries to trigger downstream syncs. Since yesterday afternoon, deliveries are arriving 5-10 minutes after the event timestamp. We've checked our endpoint health and it's responding in <200ms, so the delay seems to be on your side. Is there an incident? Nothing on your status page.",
+    "customer_name": "Atlas Freight",
+    "customer_id": "cust_31c9",
+    "priority": "urgent",
+    "created_at": "2026-05-20T11:40:00Z",
+    "tags": ["webhooks", "integrations"]
+  }
+}

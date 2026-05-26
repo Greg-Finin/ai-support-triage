@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.venv*/
+venv/
+.env
+.aws-sam/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+.DS_Store
